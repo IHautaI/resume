@@ -4,6 +4,13 @@
 \usepackage[colorlinks=true,urlcolor=blue]{hyperref}
 \usepackage{color}
 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\footnotesize \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
 \renewcommand*{\familydefault}{\sfdefault}
 
 \begin{document}
@@ -30,7 +37,7 @@ $
 \section*{Technical Skills}
 
 \begin{itemize}
-\setlength{\itemsep}{1pt}
+\setlength{\itemsep}{.5pt}
 \item Python programming, including Object-Oriented programming, data analysis
 with Pandas, machine learning with Scikit-Learn, test-driven development
 \item Django, django-rest-framework
@@ -62,8 +69,9 @@ Python3, Django, django-rest-framework, requests (a Python library), GIS data fr
 \section*{Education}
 
 {\bf Master of Science (MS), Mathematics} \hfill 2011\\
-University of North Carolina Wilmington\\
-\\
+University of North Carolina Wilmington
+\vspace{5pt}\\
+\noindent
 {\bf Bachelor of Science (BS), Mathematics} Minor in Physics \hfill 2007\\
 North Carolina State University
 
